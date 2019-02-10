@@ -12,4 +12,6 @@ function reverse(str) {
     return arr.join('');
 }
 
+console.log(reverse("surya"));
+
 module.exports = reverse;
