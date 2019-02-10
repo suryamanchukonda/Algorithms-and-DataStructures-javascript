@@ -11,7 +11,9 @@ function palindrome(str) {
     var arr = str.split('');
     arr.reverse();
     var reverseStr = arr.join('');
-    console.log(str === reverseStr);
+    return str === reverseStr;
 }
+
+console.log(palindrome("surya"))
 
 module.exports = palindrome;
